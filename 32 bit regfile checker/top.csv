@@ -1,0 +1,95 @@
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# File: C:\intelFPGA_lite\20.1\teset\regfile_test\top.csv
+# Generated on: Wed Sep 20 14:18:53 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+clk,Input,PIN_M23,6,B6_N2,PIN_J1,,,,,,
+clki,Input,PIN_M21,6,B6_N1,PIN_Y13,,,,,,
+hex0[6],Output,PIN_H22,6,B6_N0,PIN_AF15,,,,,,
+hex0[5],Output,PIN_J22,6,B6_N0,PIN_AA14,,,,,,
+hex0[4],Output,PIN_L25,6,B6_N1,PIN_AC15,,,,,,
+hex0[3],Output,PIN_L26,6,B6_N1,PIN_AB14,,,,,,
+hex0[2],Output,PIN_E17,7,B7_N2,PIN_AF17,,,,,,
+hex0[1],Output,PIN_F22,7,B7_N0,PIN_Y15,,,,,,
+hex0[0],Output,PIN_G18,7,B7_N2,PIN_Y14,,,,,,
+hex1[6],Output,PIN_U24,5,B5_N0,PIN_C13,,,,,,
+hex1[5],Output,PIN_U23,5,B5_N1,PIN_AB15,,,,,,
+hex1[4],Output,PIN_W25,5,B5_N1,PIN_AA15,,,,,,
+hex1[3],Output,PIN_W22,5,B5_N0,PIN_AA16,,,,,,
+hex1[2],Output,PIN_W21,5,B5_N1,PIN_AG17,,,,,,
+hex1[1],Output,PIN_Y22,5,B5_N0,PIN_AD17,,,,,,
+hex1[0],Output,PIN_M24,6,B6_N2,PIN_AE18,,,,,,
+hex2[6],Output,PIN_W28,5,B5_N1,PIN_AA8,,,,,,
+hex2[5],Output,PIN_W27,5,B5_N1,PIN_AA10,,,,,,
+hex2[4],Output,PIN_Y26,5,B5_N1,PIN_AH10,,,,,,
+hex2[3],Output,PIN_W26,5,B5_N1,PIN_AG8,,,,,,
+hex2[2],Output,PIN_Y25,5,B5_N1,PIN_AB11,,,,,,
+hex2[1],Output,PIN_AA26,5,B5_N1,PIN_AF12,,,,,,
+hex2[0],Output,PIN_AA25,5,B5_N1,PIN_AG10,,,,,,
+hex3[6],Output,PIN_Y19,4,B4_N0,PIN_AH12,3.3-V LVTTL,,,,,
+hex3[5],Output,PIN_AF23,4,B4_N0,PIN_AH19,3.3-V LVTTL,,,,,
+hex3[4],Output,PIN_AD24,4,B4_N0,PIN_AE16,3.3-V LVTTL,,,,,
+hex3[3],Output,PIN_AA21,4,B4_N0,PIN_AC17,3.3-V LVTTL,,,,,
+hex3[2],Output,PIN_AB20,4,B4_N0,PIN_AH17,3.3-V LVTTL,,,,,
+hex3[1],Output,PIN_U21,5,B5_N0,PIN_AF16,,,,,,
+hex3[0],Output,PIN_V21,5,B5_N1,PIN_AE15,,,,,,
+hex4[6],Output,PIN_AE18,4,B4_N2,PIN_AF13,3.3-V LVTTL,,,,,
+hex4[5],Output,PIN_AF19,4,B4_N1,PIN_AC10,3.3-V LVTTL,,,,,
+hex4[4],Output,PIN_AE19,4,B4_N1,PIN_AE11,3.3-V LVTTL,,,,,
+hex4[3],Output,PIN_AH21,4,B4_N2,PIN_AB10,3.3-V LVTTL,,,,,
+hex4[2],Output,PIN_AG21,4,B4_N2,PIN_AE12,3.3-V LVTTL,,,,,
+hex4[1],Output,PIN_AA19,4,B4_N0,PIN_AE13,3.3-V LVTTL,,,,,
+hex4[0],Output,PIN_AB19,4,B4_N0,PIN_AF11,3.3-V LVTTL,,,,,
+hex5[6],Output,PIN_AH18,4,B4_N2,PIN_AD12,3.3-V LVTTL,,,,,
+hex5[5],Output,PIN_AF18,4,B4_N1,PIN_AB13,3.3-V LVTTL,,,,,
+hex5[4],Output,PIN_AG19,4,B4_N2,PIN_AG11,3.3-V LVTTL,,,,,
+hex5[3],Output,PIN_AH19,4,B4_N2,PIN_AB12,3.3-V LVTTL,,,,,
+hex5[2],Output,PIN_AB18,4,B4_N0,PIN_AE9,3.3-V LVTTL,,,,,
+hex5[1],Output,PIN_AC18,4,B4_N1,PIN_AE7,3.3-V LVTTL,,,,,
+hex5[0],Output,PIN_AD18,4,B4_N1,PIN_A12,3.3-V LVTTL,,,,,
+hex6[6],Output,PIN_AC17,4,B4_N2,PIN_AH21,3.3-V LVTTL,,,,,
+hex6[5],Output,PIN_AA15,4,B4_N2,PIN_AD14,3.3-V LVTTL,,,,,
+hex6[4],Output,PIN_AB15,4,B4_N2,PIN_AG22,3.3-V LVTTL,,,,,
+hex6[3],Output,PIN_AB17,4,B4_N1,PIN_AD15,3.3-V LVTTL,,,,,
+hex6[2],Output,PIN_AA16,4,B4_N2,PIN_Y12,3.3-V LVTTL,,,,,
+hex6[1],Output,PIN_AB16,4,B4_N2,PIN_AC14,3.3-V LVTTL,,,,,
+hex6[0],Output,PIN_AA17,4,B4_N1,PIN_AA12,3.3-V LVTTL,,,,,
+hex7[6],Output,PIN_AA14,3,B3_N0,PIN_AH11,3.3-V LVTTL,,,,,
+hex7[5],Output,PIN_AG18,4,B4_N2,PIN_AC12,3.3-V LVTTL,,,,,
+hex7[4],Output,PIN_AF17,4,B4_N2,PIN_AF9,3.3-V LVTTL,,,,,
+hex7[3],Output,PIN_AH17,4,B4_N2,PIN_AH8,3.3-V LVTTL,,,,,
+hex7[2],Output,PIN_AG17,4,B4_N2,PIN_AF7,3.3-V LVTTL,,,,,
+hex7[1],Output,PIN_AE17,4,B4_N2,PIN_AE10,3.3-V LVTTL,,,,,
+hex7[0],Output,PIN_AD17,4,B4_N2,PIN_AF10,3.3-V LVTTL,,,,,
+seld[2],Input,PIN_AA23,5,B5_N2,PIN_AD11,,,,,,
+seld[1],Input,PIN_AA24,5,B5_N2,PIN_AA13,,,,,,
+seld[0],Input,PIN_AB23,5,B5_N2,PIN_AF14,,,,,,
+selm[2],Input,PIN_AB24,5,B5_N2,PIN_AG18,,,,,,
+selm[1],Input,PIN_AC24,5,B5_N2,PIN_AH18,,,,,,
+selm[0],Input,PIN_AB25,5,B5_N1,PIN_AG19,,,,,,
+src[7],Input,PIN_AB26,5,B5_N1,PIN_AF8,,,,,,
+src[6],Input,PIN_AD26,5,B5_N2,PIN_AH22,,,,,,
+src[5],Input,PIN_AC26,5,B5_N2,PIN_AG21,,,,,,
+src[4],Input,PIN_AB27,5,B5_N1,PIN_AE17,,,,,,
+src[3],Input,PIN_AD27,5,B5_N2,PIN_AC11,,,,,,
+src[2],Input,PIN_AC27,5,B5_N2,PIN_AG12,,,,,,
+src[1],Input,PIN_AC28,5,B5_N2,PIN_AB16,,,,,,
+src[0],Input,PIN_AB28,5,B5_N1,PIN_AE14,,,,,,
+we3,Input,PIN_AC25,5,B5_N2,PIN_AE8,,,,,,
