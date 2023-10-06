@@ -29,7 +29,7 @@ module alu(a,b,alucontrol,result,flags);
 			4'b0110: result=a<<b[4:0];					//sll
 			4'b0111: result=a>>b[4:0];					//srl
 			4'b1000: result=$signed(a)>>>b[4:0];	//sra
-			4'b1001: result=~c;							//sltu
+			4'b1001: result={31'b00000000_00000000_00000000_0000000,~c};							//sltu
 			default: result=32'bx;
 		endcase
 		
