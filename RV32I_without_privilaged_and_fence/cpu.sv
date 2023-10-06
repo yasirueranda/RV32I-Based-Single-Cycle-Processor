@@ -16,7 +16,7 @@ module cpu(reset ,clk,flags,selm,hex7,hex6,hex5,hex4,hex3,hex2,hex1,hex0);
 	
 	imem im(PC,instr);
 	
-	regfile rf(clk,regwrite,instr[19:15],instr[24:20],instr[11:7],wdmux_out,rd1,rd2);
+	regfile rf(clk,reset,regwrite,instr[19:15],instr[24:20],instr[11:7],wdmux_out,rd1,rd2);
 	
 	extend ex(instr[31:7],immSrc,immext);
 	
