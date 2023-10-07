@@ -6,7 +6,7 @@ DE2-115 Fpga Board implementation
 
 ## clk         : KEY0;
 ## reset       : KEY1
-## flags       : LEDR[3:0] {o,v,nz}
+## flags       : LEDR[3:0] {o,v,n,z}
 
 ## internal bus display SW[3:0]
 
